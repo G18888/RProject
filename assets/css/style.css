@@ -35,11 +35,12 @@ h1,h2,h3,h4,h5,h6 {
 .HEADER {
 height: 372px;
 width: 1110px;
-position:absolute;
-top:30px;
+/* position:absolute; */
+/*top:30px;
 left:405px;
 right:405px;
-z-index: 1000;}
+z-index: 1000;*/
+}
 
 .logo{
 color: #C4C4C4;
@@ -51,10 +52,11 @@ line-height: normal;}
 	flex-flow: row nowrap;
 	justify-content:space-around;
     align-items:flex-end;
-    top: 0%;
+    /* top: 0%;
 left:0%;
 right:0%;
-bottom: 73,4%;}
+bottom: 73,4%;*/
+}
     .logo{
     	order: 1;
     	flex:100%;}
@@ -66,7 +68,7 @@ bottom: 73,4%;}
 
     }	
     /*A*/
-a { position:relative;
+a { /*position:relative;*/
     width: 100px;
     margin: 0 auto;
     text-decoration: none;
@@ -74,7 +76,7 @@ a { position:relative;
 	font-size: 14px;
     text-align: center;
 }
-a:before {
+/*a:before {
 	content: '';
 	position:absolute;
 	width: 100%;
@@ -87,7 +89,7 @@ a:before {
 }
 a:hover:before {
     transform: scale(1);
-}
+}*/
 /*A*/
 .nav{
     margin: 0 auto;
@@ -103,7 +105,8 @@ margin: 0 20px;
 	color: #FFFFFF;
 }
 .line{
-    position: relative;
+    display: none;
+    /*position: relative;*/
     width: 100%;
     margin: 0 auto;
    border-top: solid #fff;
@@ -111,7 +114,7 @@ margin: 0 20px;
    height: 1px;
 
 }
-.line:before{
+/*.line:before{
     content: '';
     position:absolute;
     background: blue;
@@ -125,7 +128,7 @@ margin: 0 20px;
 
 .line:hover:before {
     transform: scale(1);
-}
+}*/
 
 /*block1 start*/
 .block1{
@@ -141,24 +144,7 @@ margin: 0 20px;
   color:#C4C4C4;
   line-height: 30px;
 
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*block1 end*/
 
 
